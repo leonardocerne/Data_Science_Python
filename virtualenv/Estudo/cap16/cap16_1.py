@@ -55,4 +55,4 @@ plt.show()
 
 # Fazendo previsoes
 previsoes = modelo_ajustado.forecast(steps = 1)
-print('\nPrevisao do Total de Vendas para Janeiro/2024:', round(previsoes[0], 4))
+print('\nPrevisao do Total de Vendas para Janeiro/2024:', round(previsoes.iloc[0], 4))
